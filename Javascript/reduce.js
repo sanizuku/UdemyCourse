@@ -29,3 +29,9 @@ const totalAmount=userCart.reduce((totalPrice,currentproductvalue)=>{
 },0)
 
 console.log('totalAmount', totalAmount)
+
+//total price     currentValue   return
+//0                 {}            12000
+//12000            22000         34000
+//34000            15000          49000
+
